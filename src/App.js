@@ -1,10 +1,10 @@
 import React from "react";
-import Task from "./component/Task";
+import TaskForm from "./component/TaskForm";
 
 function App() {
   return (
     <div className="App">
-      <Task/>
+      <TaskForm/>
     </div>
   );
 }

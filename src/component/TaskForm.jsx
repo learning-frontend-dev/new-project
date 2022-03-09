@@ -8,10 +8,10 @@ function TaskForm(props) {
     const handleSubmit = e => {
         e.preventDefault();
 
-        props.onSubmit({
-            id: Math.floor(Math.random() * 1000),
-            text: input,
-        });
+        // props.onSubmit({
+        //     id: Math.floor(Math.random() * 1000),
+        //     text: input,
+        // });
 
         setInput("");
 
@@ -28,7 +28,8 @@ function TaskForm(props) {
                         value={input}
                         onChange={handleInput}
                     />
-                    <button>Add Task</button>
+                    <button>Clear</button>
+                    <p>{input}</p>
 
                 </div>
             </form>
