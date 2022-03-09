@@ -7,11 +7,6 @@ function Task() {
         id: null,
         value: '',
     });
-
-
-    return tasks.map((task,index) =>{
-        <></>
-    })
 }
 
 export default Task;
