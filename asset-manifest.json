@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/new-project/static/js/main.cc578992.js",
+    "index.html": "/new-project/index.html",
+    "main.cc578992.js.map": "/new-project/static/js/main.cc578992.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.cc578992.js"
+  ]
+}
