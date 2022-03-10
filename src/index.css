@@ -1,0 +1,91 @@
+:root {
+  --mainFont: "Stardos Stencil", cursive;
+  --ternaryFont: "Urbanist", sans-serif;
+  --container: 1800px;
+  --gutter: 15px;
+  --boxShadow: 0px 4px 30px rgba(0, 0, 0, 0.08);
+  --mainColor: #000;
+  --ternaryColor: #888;
+  --lightBg: #fefefe;
+  --transition: linear 0.2s;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+html,
+body {
+  font-size: 10px;
+  font-family: var(--ternaryFont);
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: .5px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--mainFont);
+  color: var(--mainColor);
+}
+
+p,
+span,
+blockquote {
+  font-family: var(--ternaryFont);
+}
+
+.container {
+  max-width: var(--container);
+  width: 100%;
+  padding-left: var(--gutter);
+  padding-right: var(--gutter);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+.btn {
+  border-radius: 1rem;
+  font-size: 1.6rem !important;
+  font-family: var(--ternaryFont);
+  padding: 0 var(--gutter);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: var(--transition);
+  text-transform: capitalize;
+  border: 2px solid var(--mainColor);
+  font-weight: 600;
+  min-height: 36px;
+  box-shadow: var(--boxShadow);
+}
+
+.btn__main {
+  background: var(--mainColor);
+  color: var(--lightBg);
+}
+
+.btn__outline {
+  border-color: var(--ternaryColor);
+  color: var(--ternaryColor);
+}
+
+a {
+  text-decoration: none;
+}
+
+a,
+a:hover {
+  color: var(--mainColor);
+}

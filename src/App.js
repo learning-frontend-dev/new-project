@@ -1,11 +1,11 @@
 import React from "react";
-import TaskForm from "./component/TaskForm";
+import Header from "./component/header/Header";
 
 function App() {
   return (
-    <div className="App">
-      <TaskForm/>
-    </div>
+    <React.Fragment>
+      <Header/>
+    </React.Fragment>
   );
 }
 
