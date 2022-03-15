@@ -20,15 +20,9 @@ function Header() {
     {title: "Contact Us",path: "/contact-us"},
   ];
 
-
-  return (
-    <header className="site__header">
-      <div className="container">
-        <div className="site__logo">
-          <a href="/#" className="logo">Minimal</a>
-        </div>
-        <div className="menu__hamburger"><span></span></div>
-        <nav className="site__nav">
+  const NavLink =() =>{
+    return(
+      <nav className="site__nav">
           <ul className="main__navbar">
             {linkText.map((text) => (
               <li key={text.title}>
@@ -37,6 +31,18 @@ function Header() {
             ))}
           </ul>
         </nav>
+    )
+  }
+
+
+  return (
+    <header className="site__header">
+      <div className="container">
+        <div className="site__logo">
+          <a href="/#" className="logo">Minimal</a>
+        </div>
+        <div className="menu__hamburger"><span></span></div>
+          <NavLink/>
         <ul className="site__right-nav">
           <li><a href="/#">Sign Up</a></li>
           <li><a href="/#" className="btn btn__main">Login</a></li>
