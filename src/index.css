@@ -23,7 +23,7 @@ body {
   font-family: var(--ternaryFont);
   font-weight: 500;
   line-height: 1;
-  letter-spacing: .5px;
+  letter-spacing: 0.5px;
 }
 
 h1,
@@ -34,6 +34,12 @@ h5,
 h6 {
   font-family: var(--mainFont);
   color: var(--mainColor);
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 p,
@@ -53,6 +59,17 @@ blockquote {
 
 ul li {
   list-style-type: none;
+}
+
+.common {
+  width: 100%;
+  display: block;
+  clear: both;
+  padding: 60px 0;
+}
+
+.text-center {
+  text-align: center;
 }
 
 .btn {
@@ -88,4 +105,15 @@ a {
 a,
 a:hover {
   color: var(--mainColor);
+}
+
+.section__title {
+  font-size: 4rem;
+  text-transform: capitalize;
+  margin: 1rem 0;
+}
+
+.desc {
+  font-size: 1.8rem;
+  padding: 0 1rem;
 }

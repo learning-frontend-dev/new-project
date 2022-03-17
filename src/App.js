@@ -1,20 +1,15 @@
 import React from "react";
+import Footer from "./component/footer/Footer";
 import Header from "./component/header/Header";
-import Home from "./component/pages/home/Home";
-import AboutUs from "./component/pages/about/AboutUs";
-import News from "./component/pages/news/News";
-import ContactUs from "./component/pages/contact/ContactUs";
-import Feature from "./component/pages/feature/Feature";
+import Paths from "./routers";
+
 
 function App() {
   return (
     <React.Fragment>
-      <Header/>
-      <Home/>
-      <AboutUs/>
-      <Feature/>
-      <News/>
-      <ContactUs/>
+      <Header />
+       <Paths/>
+       <Footer/>
     </React.Fragment>
   );
 }
