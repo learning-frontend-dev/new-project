@@ -1,8 +1,6 @@
 import React from 'react';
 
-
 function Home(props) {
-
   return (
     <section className="common">
       <div className="container text-center">

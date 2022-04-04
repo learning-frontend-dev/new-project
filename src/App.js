@@ -3,7 +3,6 @@ import Footer from "./component/footer/Footer";
 import Header from "./component/header/Header";
 import Paths from "./routers";
 
-
 function App() {
   return (
     <React.Fragment>

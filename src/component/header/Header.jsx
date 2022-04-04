@@ -1,8 +1,9 @@
 import React from 'react';
 import './header.css';
-import { Link } from 'react-router-dom';
+import { Link,useLocation } from 'react-router-dom';
 
 function Header() {
+  const location = useLocation();
 
   // const [active, setActive] = useState(false);
   // const handleClick = () => setActive(true);

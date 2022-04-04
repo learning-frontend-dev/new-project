@@ -1,5 +1,5 @@
 import React from 'react';
-import { Routes, Route, } from 'react-router-dom';
+import { Routes, Route} from 'react-router-dom';
 import Home from './component/pages/home/Home';
 import ContactUs from './component/pages/contact/ContactUs';
 import AboutUs from './component/pages/about/AboutUs';
@@ -7,6 +7,7 @@ import News from './component/pages/news/News';
 import Feature from './component/pages/feature/Feature';
 
 const Paths = () => {
+        
     return (
         <Routes initialEntries={['/home']}>
             <Route exact path="/home" element={<Home />} />
