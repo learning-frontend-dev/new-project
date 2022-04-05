@@ -1,15 +1,14 @@
 import React from 'react';
 import './header.css';
-import { Link,useLocation } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 function Header() {
-  const location = useLocation();
 
   // const [active, setActive] = useState(false);
   // const handleClick = () => setActive(true);
 
   const linkText = [
-    { title: "Home", path: "/home" },
+    { title: "Home", path: "/" },
     { title: "About Us", path: "/about-us" },
     { title: "Feature", path: "/feature" },
     { title: "News", path: "/news" },
