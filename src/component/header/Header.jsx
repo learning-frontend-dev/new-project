@@ -34,7 +34,7 @@ function Header() {
     <header className="site__header">
       <div className="container">
         <div className="site__logo">
-          <a href="/new-project" className="logo">Minimal</a>
+          <a href="/" className="logo">Minimal</a>
         </div>
         <div className="menu__hamburger"><span></span></div>
         <NavLink />
