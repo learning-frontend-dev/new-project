@@ -1,5 +1,5 @@
 import React from 'react';
-import { Routes, Route, HashRouter as Router } from 'react-router-dom';
+import { Routes, Route} from 'react-router-dom';
 import Home from './component/pages/home/Home';
 import ContactUs from './component/pages/contact/ContactUs';
 import AboutUs from './component/pages/about/AboutUs';
@@ -10,7 +10,8 @@ const Paths = () => {
     return (
 
         <Routes>
-            <Route exact path="/home" element={<Home />} />
+            <Route index element={<Home />} />
+            <Route exact path="/" element={<Home />} />
             <Route exact path="/contact-us" element={<ContactUs />} />
             <Route exact path="/news" element={<News />} />
             <Route exact path="/feature" element={<Feature />} />
