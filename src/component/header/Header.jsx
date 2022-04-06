@@ -41,7 +41,7 @@ function Header() {
         <ul className="site__right-nav">
           <li><a href="/#">Sign Up</a></li>
           <li><a href="/#" className="btn btn__main">Login</a></li>
-        </ul>
+        </ul> 
       </div>
     </header>
   )
