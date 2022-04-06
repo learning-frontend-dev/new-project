@@ -10,7 +10,6 @@ const Paths = () => {
     return (
 
         <Routes>
-            <Route index element={<Home />} />
             <Route exact path="/" element={<Home />} />
             <Route exact path="/contact-us" element={<ContactUs />} />
             <Route exact path="/news" element={<News />} />

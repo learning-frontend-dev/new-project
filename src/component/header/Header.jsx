@@ -1,10 +1,8 @@
 import React from 'react';
 import './header.css';
-import { Link, useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 function Header() {
-
-  const navigate = useNavigate();
 
   // const [active, setActive] = useState(false);
   // const handleClick = () => setActive(true);
@@ -36,7 +34,7 @@ function Header() {
     <header className="site__header">
       <div className="container">
         <div className="site__logo">
-          <a href="/" className="logo">Minimal</a>
+          <a href="/new-project" className="logo">Minimal</a>
         </div>
         <div className="menu__hamburger"><span></span></div>
         <NavLink />
