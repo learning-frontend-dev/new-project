@@ -5,6 +5,7 @@ import ContactUs from './component/pages/contact/ContactUs';
 import AboutUs from './component/pages/about/AboutUs';
 import News from './component/pages/news/News';
 import Feature from './component/pages/feature/Feature';
+import Register from './component/pages/authModule/Register';
 
 const Paths = () => {
     return (
@@ -15,6 +16,7 @@ const Paths = () => {
             <Route exact path="/news" element={<News />} />
             <Route exact path="/feature" element={<Feature />} />
             <Route exact path="/about-us" element={<AboutUs />} />
+            <Route exact path="/register" element={<Register />} />
         </Routes>
     )
 }

@@ -39,8 +39,8 @@ function Header() {
         <div className="menu__hamburger"><span></span></div>
         <NavLink />
         <ul className="site__right-nav">
-          <li><a href="/#">Sign Up</a></li>
-          <li><a href="/#" className="btn btn__main">Login</a></li>
+          <li><a href="#/register">Sign Up</a></li>
+          <li><a href="#/" className="btn btn__main">Login</a></li>
         </ul> 
       </div>
     </header>

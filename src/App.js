@@ -7,8 +7,10 @@ function App() {
   return (
     <React.Fragment>
       <Header />
-       <Paths/>
-       <Footer/>
+      <div className="main_content">
+        <Paths />
+      </div>
+      <Footer />
     </React.Fragment>
   );
 }

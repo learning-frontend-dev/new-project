@@ -117,3 +117,7 @@ a:hover {
   font-size: 1.8rem;
   padding: 0 1rem;
 }
+
+.main_content{
+  min-height: calc(100vh - 200px);
+}

@@ -1,0 +1,29 @@
+.form_outer{
+    max-width: 650px;
+    margin: 0px auto;
+    width: 100%;
+}
+
+.form_field{
+    display: flex;
+    flex-flow: wrap;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.form_label{
+    width: 100%;
+    display: inline-flex;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+.form_input{
+    width: 100%;
+    border: 1px solid #eee;
+    min-height: 45px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,.08);
+    color: #333;
+    background: #fff;
+}
